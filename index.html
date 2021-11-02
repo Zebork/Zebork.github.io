@@ -177,7 +177,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2021-11-02 20:08:54" itemprop="dateModified" datetime="2021-11-02T20:08:54+08:00">2021-11-02</time>
+                <time title="Modified: 2021-11-02 20:11:27" itemprop="dateModified" datetime="2021-11-02T20:11:27+08:00">2021-11-02</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -204,7 +204,9 @@
 <h2 id="0x01-概述"><a href="#0x01-概述" class="headerlink" title="0x01 概述"></a><strong>0x01 概述</strong></h2><p><strong>Linux内核本质上是宏内核，也就是说内核作为一个单一的二进制文件，以特权模式运行在计算机中。而组成我们熟知的操作系统，只有一个内核是不够的，还需要有文件系统，Linux的虚拟文件系统（根文件系统）将不同的文件系统组织起来，并为其他程序提供了运行的平台。</strong></p>
 <p><strong>如果你想看到Linux内核的位置，切换到/boot/目录下，其中的vmlinuz文件就是内核的二进制文件，可能不只一个，在开机引导的过程中会选择指定的一个内核进行装载。</strong></p>
 <p><strong>内核启动之后，负责直接与硬件交互（或者说借助驱动程序），为正常的应用程序提供操作硬件的接口，例如磁盘I/O，标准输入输出，TCP/IP协议等。</strong></p>
-<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Kernel_Layout.svg/220px-Kernel_Layout.svg.png" alt="img">操作系统架构示意图</p>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Kernel_Layout.svg/220px-Kernel_Layout.svg.png" alt="img"></p>
+<center>操作系统架构示意图</center>
+
 <h2 id="0x02-进程的由来"><a href="#0x02-进程的由来" class="headerlink" title="0x02 进程的由来"></a>0x02 进程的由来</h2><p><strong>进程，或者说多任务处理，是现代操作系统的一个重要标志。那么进程是怎么来的？</strong></p>
 <p><strong>先说结论：进程是内核创建的。</strong></p>
 <p><strong>在Linux内核源码中，include/linux/sched.c中，Linus使用C语言结构体定义了进程的数据结构task_struct。这个结构体在计算机开机之后的某一过程中，被内核代码加载到物理内存中，成为第一个进程，在早期Linux中，内核通过一系列设置，将进程的物理地址，虚拟地址设置就绪，模拟进程进入内核态的过程，利用iret指令激活第一个进程的用户态。现代的Linux也是基本一致的思路，不过更为复杂，利用3个特殊进程（pid=0，1，2），完成我们常用进程的创建。这是现代CPU等硬件的进步和更新设计思想引入的结果。</strong></p>
